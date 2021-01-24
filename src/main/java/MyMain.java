@@ -55,7 +55,7 @@ public class MyMain {
         int biggest_num = 0;
         int mode = -1;
         for (int i = 1; i < 100; i++) {
-            if (frequency_of_num[i] < biggest_num) {
+            if (frequency_of_num[i] > biggest_num) {
                 biggest_num = frequency_of_num[i];
                 mode = i;
             }
